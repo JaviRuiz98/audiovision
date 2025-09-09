@@ -1,0 +1,57 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.header {
+  background-color: #ffffff;    
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Logo */
+.header .logo {
+  max-width: 150px;
+  cursor: pointer;
+}
+
+.header .menu-link {
+  color: #000;               
+  text-decoration: none;     
+  font-weight: 500;           
+  transition: color 0.3s ease; 
+}
+
+.header .menu-link:hover {
+  color: #007ad9;             
+  text-decoration: underline; 
+}
+
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header .menu {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .slogan-text {
+    font-size: 1.2rem;
+    white-space: normal;
+    line-height: 1.4;
+  }
+}
+
+.header-slogan {
+  flex: 1; 
+}
+
+.slogan-text {
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #333;
+  margin: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
