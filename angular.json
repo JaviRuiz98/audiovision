@@ -94,7 +94,13 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/audiovision/",
+            "repo": "https://github.com/JaviRuiz98/audiovision.git",
+            "name": "JaviRuiz98",
+            "dir": "dist/audiovision/browser"
+          }
         }
       }
     }
