@@ -13,7 +13,8 @@ import { ButtonModule } from 'primeng/button';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
