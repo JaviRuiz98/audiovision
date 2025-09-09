@@ -22,7 +22,7 @@
 }
 
 .header .menu-link:hover {
-  color: #007ad9;             
+  color: #748cfc;             
   text-decoration: underline; 
 }
 
@@ -47,10 +47,10 @@
 
 .slogan-text {
   font-family: 'Montserrat', sans-serif; 
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 400;
   letter-spacing: 2px;
-  color: #333;
+  color: #748cfc;
   margin: 0;
   text-transform: uppercase;
   white-space: nowrap;
