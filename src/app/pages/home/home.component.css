@@ -8,7 +8,6 @@
   border-bottom: 1px solid #e0e0e0;
 }
 
-/* Logo */
 .header .logo {
   max-width: 150px;
   cursor: pointer;
@@ -39,15 +38,20 @@
     white-space: normal;
     line-height: 1.4;
   }
+  .menu-wrap{ 
+    width:100%; 
+  }
+
 }
 
 .header-slogan {
   flex: 1; 
+  
 }
 
 .slogan-text {
   font-family: 'Montserrat', sans-serif; 
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 400;
   letter-spacing: 2px;
   color: #748cfc;
@@ -55,3 +59,31 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
+
+.header { background:#fff; border-bottom:1px solid #eaeaea; }
+
+.logo-wrap, .menu-wrap { flex:0 0 auto; }
+.header-slogan { flex:1 1 auto; min-width:0; text-align:center; }
+
+.logo { max-width:150px; height:auto; cursor:pointer; }
+
+.slogan-text{
+  margin:0;
+  color:#6c88ff;       
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  white-space:normal;
+  overflow-wrap:anywhere;
+  font-size:clamp(14px, 2.2vw, 28px);
+  line-height:1.2;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.menu-link{
+  color:#000;
+  text-decoration:none;
+  font-weight:500;
+  transition:color .2s ease;
+}
+.menu-link:hover{ color:#6c88ff; }
